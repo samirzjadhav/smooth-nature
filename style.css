@@ -24,3 +24,44 @@
   color: black;
   font-family: "Inter", sans-serif;
 }
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./img/hero-img.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.hero {
+  margin: 240px auto;
+  padding: 0px 200px;
+}
+
+.hero-text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid #fff;
+  padding: 100px 0px;
+  box-shadow: 0 0 40px 4px rgba(26, 26, 26, 0.4);
+}
+
+.hero-text-box h6 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fff;
+  padding: 0px 10px;
+}
+
+.hero-text-box h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 16px 0px 0px;
+  color: #fff;
+}
