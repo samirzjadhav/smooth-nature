@@ -26,9 +26,9 @@
 }
 
 .container {
-  width: 100vw;
-  height: 100vh;
-  background-image: url(./img/hero-img.jpeg);
+  max-width: 100%;
+  max-height: 100%;
+  background-image: url(./img/hero-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -64,4 +64,21 @@
   line-height: 1.2;
   margin: 16px 0px 0px;
   color: #fff;
+}
+
+.review-img {
+  display: flex;
+}
+
+.review-img img {
+  width: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.review-img img:hover {
+  opacity: 1;
+  transform: scale(0.9);
+  box-shadow: 0 0 40px 4px rgba(26, 26, 26, 0.4);
 }
