@@ -99,7 +99,7 @@
   padding: 32px 30px 22px;
 }
 
-.test-box a {
+.btn {
   border-style: none none solid;
   font-weight: 700;
   text-transform: uppercase;
@@ -110,7 +110,7 @@
   color: black;
 }
 
-.test-box a:hover {
+.btn:hover {
   color: #c5a28f;
 }
 
@@ -229,7 +229,7 @@
 .agency-box {
   background-image: url(./img/agency-img.jpeg);
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -248,4 +248,51 @@
   padding: 2rem;
   border: 5px solid #fff;
   box-shadow: 0 0 40px 4px rgba(26, 26, 26, 0.4);
+}
+
+.about {
+  margin: 5rem;
+}
+
+.about-box-2 {
+  text-align: center;
+}
+
+.about-box-2 img {
+  width: 500px;
+}
+
+.about-box-1,
+.about-box-2,
+.about-box-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem;
+}
+
+.about-info {
+  padding: 2rem;
+  background-color: #f9f5f2;
+  width: 348px;
+  height: 362px;
+}
+
+.about-info h4 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.about-img {
+  margin: 1rem;
+  width: 348px;
+  height: 362px;
 }
