@@ -170,10 +170,10 @@
   height: 500px;
 }
 
-/* .imgs:hover {
+.imgs:hover {
   transform: scale(0.9);
   box-shadow: 0 0 40px 4px rgba(26, 26, 26, 0.4);
-} */
+}
 
 .box {
   display: flex;
@@ -541,8 +541,12 @@
     padding: 1rem;
   }
 
+  .about-box-2 {
+    margin: 1rem 0;
+  }
+
   .about-box-2 img {
-    width: 400px;
+    width: 380px;
   }
 
   .about-img {
