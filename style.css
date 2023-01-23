@@ -393,3 +393,52 @@
   margin-top: 1rem;
   border: none;
 }
+
+@media (max-width: 991px) {
+  .hero-text-box {
+    padding: 5rem;
+  }
+
+  .test-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .info-image {
+    min-width: 640px;
+    height: 400px;
+  }
+
+  .info-box-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .extra-info-box {
+    display: flex;
+    text-align: center;
+  }
+
+  .agency-container {
+    padding: 0rem;
+    margin: 2rem;
+  }
+
+  .agency-container h2 {
+    font-size: 2.6rem;
+    font-weight: 500;
+  }
+
+  .agency-box {
+    text-align: center;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .gallery-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
