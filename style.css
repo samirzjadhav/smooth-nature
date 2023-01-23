@@ -77,11 +77,11 @@
   background-repeat: no-repeat;
 }
 
-/* .review-img img:hover {
+.review-img img:hover {
   opacity: 1;
   transform: scale(0.9);
   box-shadow: 0 0 40px 4px rgba(26, 26, 26, 0.4);
-} */
+}
 
 .testimonials {
   margin-top: 5rem;
